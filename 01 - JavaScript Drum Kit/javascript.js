@@ -7,7 +7,6 @@ function playSound (e) {
     key.classList.add('playing');
 }
 function removeTransition (e) {
-    console.log(this);
     if (e.propertyName !== 'transform') return;
     this.classList.remove('playing');
 }
